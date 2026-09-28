@@ -1,11 +1,10 @@
 # Documentation index
 
-Use this index to navigate the project records. Templates are intentionally device- and vendor-neutral; fill them in only when decisions or work have actually happened.
 
 | Document | Use it when… |
 | --- | --- |
-| [Project charter and goals](project-charter.md) | Defining the purpose, boundaries, constraints, and success measures |
-| [Network architecture](network-architecture.md) | Describing the intended or verified traffic flow and service placement |
+| [Project charter and goals](project-charter.md) | Purpose, boundaries, constraints, and success measures |
+| [Network architecture](network-architecture.md) | Intended or verified traffic flow and service placement |
 | [Setup and deployment journal](deployment-journal.md) | Recording a setup session, change, or rollback |
 | [Milestones and progression](milestones.md) | Reviewing planned work and marking evidence-backed progress |
 | [Testing and validation](testing-validation.md) | Planning or recording checks and their outcomes |
@@ -24,4 +23,4 @@ Use this index to navigate the project records. Templates are intentionally devi
 6. Summarize meaningful changes in the progress log; add problems and lessons to troubleshooting.
 7. Review the privacy checklist before committing or sharing updates.
 
-Use dates in `YYYY-MM-DD` format. If a section is not yet known, leave its prompt in place or write `Not yet decided`; do not fill gaps with assumptions.
+Dates in `YYYY-MM-DD` format. If a section is not yet known `Not yet decided`.
