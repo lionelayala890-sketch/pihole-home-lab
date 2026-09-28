@@ -6,17 +6,18 @@
 ## Overview
 
 - **Project name:** Pi-hole home-network deployment
-- **Owner:** [Optional public-facing name or role; omit if not needed]
-- **Last updated:** [YYYY-MM-DD]
-- **Current stage:** [Planning / In progress / Paused / Complete]
+- **Last updated:** 2026-09-27
+- **Current stage:** Complete
 
 ## Purpose
 
 **Problem or motivation:**  
-[What do you want to learn, improve, or make easier? Avoid unsupported claims about current network behavior.]
+I want to create a pi-hole to limit ads in my home network and manage traffic coming through our network in order to get a better understanding of DNS properties, creating and maintaining a dhcp server as well as just to provide a better understanding of hardware structures and other basic concepts. 
+
 
 **Intended outcome:**  
-[Describe the desired service and the experience you want to validate.]
+To create a pi-hole that does a sufficient job blocking ads and other material from listed IP's, have this be network wide on every device connected to the network. 
+
 
 ## Goals and success criteria
 
