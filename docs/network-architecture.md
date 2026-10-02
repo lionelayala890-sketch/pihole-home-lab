@@ -13,7 +13,7 @@
 ## High-level topology
 
 ```text
-            [Internet]
+             [Internet]
                  |
           [Upstream DNS]
        (Cloudflare 1.1.1.1)
@@ -22,8 +22,11 @@
            (ATT Router)
                  |
           [Home LAN]
-         /        |        \
-   [Pi-hole]  [Configured]  [Unconfigured]
-   (DNS      Clients (6)     Clients (4-5)
-    Service)  • 5 phones
-              • 1 laptop
+                 |
+            [Pi-hole]
+         (DNS Service)
+         /          \
+   [Configured]   [Unconfigured]
+   Clients (6)     Clients (4-5)
+   • 5 phones
+   • 1 laptop
