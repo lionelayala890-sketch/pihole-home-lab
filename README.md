@@ -48,13 +48,7 @@ Start with the [documentation index](docs/README.md), then use the records below
 | [Security and privacy](docs/security-privacy.md) | Publication checks and safe documentation practices |
 | [Progress log](docs/progress-log.md) | Concise dated record of meaningful changes |
 
-## Working principles
 
-1. **Document facts, not intentions as outcomes.** Use `Planned`, `In progress`, `Blocked`, or `Verified` and include dates for updates.
-2. **Keep sensitive values out of Git.** Use the placeholders in the templates; review every change before publishing.
-3. **Capture evidence without exposing the network.** Summarize results or use redacted screenshots and sanitized command output.
-4. **Record decisions and reversibility.** Note why a change was made, how it was checked, and how it could be undone.
-5. **Avoid tying the project to a particular device.** Record actual hardware and software only after they are selected.
 
 ## Repository structure
 
@@ -74,6 +68,4 @@ Start with the [documentation index](docs/README.md), then use the records below
     └── troubleshooting.md
 ```
 
-## Updating the portfolio
 
-Replace bracketed prompts with only the details you are comfortable sharing. Before publishing, follow the [security and privacy checklist](docs/security-privacy.md). Leave unknown values marked as not yet recorded or omit them entirely.
