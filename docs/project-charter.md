@@ -21,7 +21,7 @@ To create a pi-hole that does a sufficient job blocking ads and other material f
 
 ## Goals and success criteria
 
-Write criteria that can be checked. Keep each one specific and add a way to verify it.
+
 
 | Goal | Success criterion | How it will be verified | Status |
 | --- | --- | --- | --- |
