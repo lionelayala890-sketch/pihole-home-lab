@@ -2,15 +2,14 @@
 
 A practical, privacy-conscious project journal for planning, building, validating, and improving a personal Pi-hole deployment on a home network.
 
-This repository is both a working record and a portfolio-friendly explanation of the decisions behind the project. It is designed to be filled in as work happens—not to imply that a deployment, test, or result already exists.
+This repository is both a working record and a portfolio-friendly explanation of the decisions behind the project. It is designed to be filled in as work happens—not to imply that a deployment, test, or result is complete unless it is explicitly documented.
 
 ## Project goals
 
-- Record the project scope, requirements, and success criteria before implementation.
-- Explain the network design at a useful level without exposing sensitive details.
-- Keep an auditable journal of setup decisions, changes, tests, and lessons learned.
-- Track progress from planning through deployment and ongoing maintenance.
-- Make the work understandable to a technical reviewer while keeping the documentation easy to maintain.
+- Implement Pi-hole on the home network to reduce the number of ads seen across connected devices.
+- Use blocklists and DNS filtering to improve the browsing experience while maintaining privacy-conscious network practices.
+- Learn how DNS servers work in practice and how they fit into a home network environment.
+- Gain hands-on experience with network configuration, troubleshooting, and validating a service on a live network.
 
 ## Skills this project can demonstrate
 
@@ -23,15 +22,15 @@ As the project develops, its documentation can provide evidence of:
 - Security and privacy awareness for a home-network service.
 - Clear technical writing and project planning.
 
-These are areas the project is intended to exercise; this README does not claim that any implementation or outcome has been completed.
+These are areas the project is intended to exercise; this README reflects the actual project outcome that was completed and validated.
 
 ## Current status
 
-**Project stage:** Documentation and planning scaffold.  
-**Deployment status:** Not yet recorded.  
-**Validation status:** No deployment or test results recorded.
+**Project stage:** Pi-hole implemented and validated.  
+**Deployment status:** Completed and active on the home network since September 26.  
+**Validation status:** Confirmed through targeted ad-reduction testing; the deployed Pi-hole reduced ads across the network as expected.
 
-Update this section as the project progresses. Distinguish planned work from work in progress and verified results; link to the relevant journal entry or evidence where appropriate.
+The Pi-hole dashboard confirms the service is active and filtering traffic. Screenshot evidence shows the deployment is processing queries successfully, with 69,342 total queries, 11,243 queries blocked, 16.2% blocked, and 309,659 domains on block lists. This aligns with the observed reduction in ads during testing.
 
 ## Follow the project
 
@@ -77,4 +76,4 @@ Start with the [documentation index](docs/README.md), then use the records below
 
 ## Updating the portfolio
 
-Replace bracketed prompts with only the details you are comfortable sharing. Before publishing, follow the [security and privacy checklist](docs/security-privacy.md). Leave unknown values marked as not yet decided rather than guessing, and remove template guidance that no longer applies once the project has real records.
+Replace bracketed prompts with only the details you are comfortable sharing. Before publishing, follow the [security and privacy checklist](docs/security-privacy.md). Leave unknown values marked as not yet recorded or omit them entirely.
